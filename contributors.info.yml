@@ -1,0 +1,6 @@
+name: Contributors
+type: module
+description: Contributors.
+core: 8.x
+dependencies:
+  - node

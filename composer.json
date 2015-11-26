@@ -1,0 +1,14 @@
+{
+  "name": "drupal/contributors",
+  "type": "drupal-module",
+  "description": "Content contributors",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "http://drupal.org/project/contributors",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/contributors",
+    "source": "http://cgit.drupalcode.org/contributors"
+  },
+  "require": { }
+}

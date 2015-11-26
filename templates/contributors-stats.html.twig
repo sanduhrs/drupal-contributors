@@ -1,0 +1,14 @@
+{#
+/**
+ * @file
+ * The contributor stats.
+ *
+ * Available variables:
+ * - accounts: The list of contributors
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="contributors">
+    <p class="contributors__stats">by {{ accounts|length }} contributors: {% for account in accounts %}{% if loop.index0 > 0 %}, {% endif %}{{account.username}}{% endfor %}</p>
+</div>

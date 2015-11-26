@@ -1,0 +1,17 @@
+{#
+/**
+ * @file
+ * The last updated by information.
+ *
+ * Available variables:
+ * - account: The uasername of the last contributor
+ * - timestamp: The timestamp of the last contribution
+ * - created: The created datetime of the last contribution
+ * - username: The display name of the user
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="contributors">
+    <p class="contributors__last-updated-by">{{ 'Last updated by @username on :created'|t({ '@username': username, ':created': created }) }}</p>
+</div>

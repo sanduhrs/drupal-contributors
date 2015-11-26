@@ -1,0 +1,25 @@
+/**
+ * @file
+ * Styling for the contributors module.
+ */
+
+/**
+ * The contributors.
+ */
+.contributors {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.857em;
+    color: #68696b;
+}
+
+/**
+ * The contributor that last updated.
+ */
+.contributors__last-updated-by {
+}
+
+/**
+ * The contributors stats.
+ */
+.contributors__stats {
+}
